@@ -47,8 +47,6 @@ El **kernel híbrido** combina características del kernel monolítico y el micr
 
 Cabe mencionar que cada tipo de kernel tiene sus ventajas y desventajas, y la elección del tipo de kernel depende de los requisitos y objetivos del sistema operativo. Cada enfoque tiene su lugar en diferentes contextos y escenarios de implementación.
 
-¡Claro! Aquí tienes la información sobre User Mode vs. Kernel Mode en formato Markdown:
-
 ## User Mode vs. Kernel Mode
 
 En el contexto de sistemas operativos, el **User Mode** (Modo Usuario) y el **Kernel Mode** (Modo Kernel) son dos niveles de privilegios en los que se ejecutan procesos y tareas en un sistema. Estos modos están diseñados para mantener la seguridad y la estabilidad del sistema operativo, ya que permiten controlar el acceso a los recursos del hardware y a ciertas instrucciones de máquina.
