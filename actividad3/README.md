@@ -90,7 +90,7 @@
     # Crear un archivo llamado archivo2.txt dentro de directorio1 y escribir algo en él
     echo "Contenido del archivo 2" > archivo2.txt
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/archivo.png)
 
 2. **Verificar Permisos**:
 
@@ -98,43 +98,49 @@
    ls -l ~/archivo1.txt
    ls -ld ~/directorio1
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/verifica.png)
 
 3. **Modificar Permisos usando `chmod` con Modo Numérico**:
 
    ```bash
    chmod 640 ~/archivo1.txt
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/modifica.png)
 
 4. **Modificar Permisos usando `chmod` con Modo Simbólico**:
 
    ```bash
    chmod u+x ~/directorio1/archivo2.txt
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/modifica2.png)
 
 5. **Cambiar el Grupo Propietario**:
 
    ```bash
    sudo chown :grupo1 ~/directorio1/archivo2.txt
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/chown.png)
 
 6. **Configurar Permisos de Directorio**:
 
    ```bash
    chmod 750 ~/directorio1
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/chmod.png)
 
 7. **Comprobación de Acceso**:
 
    ```bash
+   # Ingresar como usuario1 (si no estás logueado como usuario1)
+    su usuario1
+
+   # intetar acceder a archivo1
    cat ~/archivo1.txt
+
+   # intentar acceder a directorio1/archivo2.txt
    cat ~/directorio1/archivo2.txt
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/verfica3.png)
 
 8. **Verificación Final**:
 
@@ -142,4 +148,4 @@
    ls -l ~/archivo1.txt
    ls -ld ~/directorio1
    ```
-   ![adduser](img\adduser.png)
+   ![adduser](./img/verfica4.png)
