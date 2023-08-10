@@ -11,7 +11,7 @@
    sudo adduser usuario2
    sudo adduser usuario3
    ```
-    ![adduser](img\adduser.png)
+    ![adduser](./img/adduser.png)
 
 
 2. **Asignación de Contraseñas**:
@@ -75,10 +75,20 @@
 1. **Creación de Archivos y Directorios**:
 
    ```bash
-   touch ~/archivo1.txt
-   echo "Contenido del archivo 1" > ~/archivo1.txt
-   mkdir ~/directorio1
-   touch ~/directorio1/archivo2.txt
+    # Ingresar como usuario1 (si no estás logueado como usuario1)
+    su usuario1
+
+    # Crear un archivo llamado archivo1.txt y escribir algo en él
+    echo "Contenido del archivo 1" > ~/archivo1.txt
+
+    # Crear un directorio llamado directorio1
+    mkdir ~/directorio1
+
+    # Ingresar al directorio1
+    cd ~/directorio1
+
+    # Crear un archivo llamado archivo2.txt dentro de directorio1 y escribir algo en él
+    echo "Contenido del archivo 2" > archivo2.txt
    ```
    ![adduser](img\adduser.png)
 
