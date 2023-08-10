@@ -21,21 +21,21 @@
    sudo passwd usuario2
    sudo passwd usuario3
    ```
-    ![adduser](img\passwd.png)
+    ![adduser](./img/passwd.png)
 
 3. **Información de Usuarios**:
 
    ```bash
    id usuario1
    ```
-   ![adduser](img\id.png)
+   ![adduser](./img/id.png)
 
 4. **Eliminación de Usuarios** (conservando el directorio principal):
 
    ```bash
    sudo userdel usuario3
    ```
-   ![adduser](img\userdel.png)
+   ![adduser](./img/userdel.png)
 
 ## **Parte 2: Gestión de Grupos**
 
@@ -45,7 +45,7 @@
    sudo addgroup grupo1
    sudo addgroup grupo2
    ```
-   ![adduser](img\addgroup.png)
+   ![adduser](./img/addgroup.png)
 
 2. **Agregar Usuarios a Grupos**:
 
@@ -53,7 +53,7 @@
    sudo usermod -aG grupo1 usuario1
    sudo usermod -aG grupo2 usuario2
    ```
-   ![adduser](img\usermod.png)
+   ![adduser](./img/usermod.png)
 
 3. **Verificar Membresía**:
 
@@ -61,14 +61,14 @@
    groups usuario1
    groups usuario2
    ```
-   ![adduser](img\group.png)
+   ![adduser](./img/group.png)
 
 4. **Eliminar Grupo**:
 
    ```bash
    sudo delgroup grupo2
    ```
-   ![adduser](img\delgroup.png)
+   ![adduser](./img/delgroup.png)
 
 ## **Parte 3: Gestión de Permisos**
 
