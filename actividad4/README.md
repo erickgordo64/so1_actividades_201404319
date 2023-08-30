@@ -13,7 +13,7 @@
    done
    ```
 
-2. **Crea el archivo de unidad de servicio:**
+2. **Creación el archivo de unidad de servicio:**
    Crear un archivo llamado `hello-service.service` en el directorio `/etc/systemd/system/` con el siguiente contenido:
 
    ```plaintext
@@ -31,7 +31,7 @@
    WantedBy=multi-user.target
    ```
 
-3. **Recarga systemd y arranca el servicio:**
+3. **Recarga de systemd y arranque del servicio:**
    Después de crear el archivo de unidad de servicio, recargar systemd y arrancar el servicio con los siguientes comandos:
 
    ```bash
@@ -39,14 +39,14 @@
    sudo systemctl start hello-service.service
    ```
 
-4. **Habilita el servicio:**
+4. **Habilitación el servicio:**
    Para que el servicio se inicie automáticamente al arrancar el sistema, habilítarlo con el siguiente comando:
 
    ```bash
    sudo systemctl enable hello-service.service
    ```
 
-5. **Verifica el estado del servicio:**
+5. **Verificación el estado del servicio:**
    Para verificar el estado del servicio con el siguiente comando:
 
    ```bash
