@@ -58,5 +58,3 @@
    ```
 
    Esto te mostrará información sobre si el servicio se está ejecutando, su estado y registros recientes.
-
-¡Con estos pasos, habrás creado y configurado exitosamente un servicio utilizando systemd en Linux! El script `hello-script.sh` se ejecutará como un servicio y mostrará el saludo y la fecha actual cada 5 segundos. Recuerda ajustar las rutas, el usuario y el grupo según tus necesidades.
