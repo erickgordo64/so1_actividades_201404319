@@ -1,0 +1,13 @@
+[Unit]
+Description=Hello World Service
+After=network.target
+
+[Service]
+ExecStart=/home/erick/so1_actividades_201404319/actividad4/hello-script.sh
+Restart=always
+User=erick
+Group=root
+StandardOutput=syslog
+
+[Install]
+WantedBy=multi-user.target
